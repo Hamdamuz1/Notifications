@@ -1,0 +1,74 @@
+/* Custom table styling */
+.table th, .table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Limit message length in table */
+.table td {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+/* Adjust button spacing */
+.btn {
+    margin: 0 5px;
+}
+
+/* Table container custom spacing */
+.container {
+    margin-top: 30px;
+}
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+.card-footer .btn {
+    margin: 0 5px;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    border-radius: 10px 10px 0 0;
+}
+
+.card-body {
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    border-radius: 10px 10px 0 0;
+}
+
+.card-body {
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+button[type="submit"] {
+    border-radius: 5px;
+}
+
+
+
+
+.card:hover {
+    transform: scale(1.05) rotate(1deg);
+    transition: all 0.3s ease-in-out;
+}
+
+
+.card-body {
+    background: linear-gradient(180deg, #ffffff, #f8f9fa);
+}
+
